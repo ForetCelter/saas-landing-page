@@ -2,5 +2,11 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.3.2",
     "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "dev": "lite-server"
   }
 }
