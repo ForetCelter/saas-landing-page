@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .btn-primary{
     @apply text-white bg-black
 }
 
 .logos > img {
-    @apply px-14 py-7.5 bg-neutral-400
+    @apply px-7 py-2.5 bg-neutral-200
 }
