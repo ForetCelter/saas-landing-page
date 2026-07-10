@@ -144,67 +144,71 @@
             </article>
         </section>
 
-        <section class="feature-showcase">
-            <h2>Structural Showcase</h2>
-            <div class="showcase-card">
-                <article class="showcase-card">
-                    <img src="" alt="Potrait Placeholder">
-                    <div class="card-content">
-                        <h3>
-                            Primary Focus
-                        </h3>
-                        <p>
-                            Vertical card showing how content flows in a restricted width but extended height.
-                        </p>
-                    </div>
-                </article>
+        <section class="feature-showcase min-h-screen flex flex-col items-center bg-neutral-100 px-8 py-14 space-y-10">
+            <h2 class="text-4xl">Structural Showcase</h2>
 
-                <article class="showcase-card">
-                    <img src="" alt="Thumbnail">
-                    <div class="card-content">
-                        <h3>
-                            Horizontal Alignment
-                        </h3>
-                        <p>
-                            A wide row-based component in the masonry grid.
-                        </p>
-                    </div>
-                </article>
+                <div class="showcase-grid grid gap-3 grid-cols-3 ">
 
-                <article class="showcase-card">
-                    <img src="" alt="Square">
-                    <div class="card-content">
-                        <h3>
-                            Standard Block
-                        </h3>
-                        <p>
-                            Consistent spacing remains even in asymetric grids.
-                        </p>
-                    </div>
-                </article>
+                    <article class="showcase-card col-span-1 row-span-2">
+                        <span>Placeholder</span>
+                        <div class="card-content">
+                            <h3>
+                                Primary Focus
+                            </h3>
+                            <p>
+                                Vertical card showing how content flows in a restricted width but extended height.
+                            </p>
+                        </div>
+                    </article>
 
-                <article class="showcase-card">
-                    <div class="card-content">
-                        <h3>
-                            Text Only Card
-                        </h3>
-                        <p>
-                            Sometimes a wireframe only needs to communicate text hierarchy. This card focuses purely on
-                            typography.
-                        </p>
-                    </div>
-                </article>
+                    <article class="showcase-card col-span-2 row-span-1">
+                       <span>Placeholder</span>
+                        <div class="card-content">
+                            <h3>
+                                Horizontal Alignment
+                            </h3>
+                            <p>
+                                A wide row-based component in the masonry grid.
+                            </p>
+                        </div>
+                    </article>
 
-                <article class="showcase-card">
-                    <img src="" alt="Graphic bar">
-                    <div class="card-content">
-                        <h3>
-                            Full Span Feature
-                        </h3>
-                    </div>
+                    <article class="showcase-card">
+                        <span>Placeholder</span>
+                        <div class="card-content">
+                            <h3>
+                                Standard Block
+                            </h3>
+                            <p>
+                                Consistent spacing remains even in asymetric grids.
+                            </p>
+                        </div>
+                    </article>
 
-                </article>
-            </div>
+                    <article class="showcase-card">
+                        <div class="card-content">
+                            <h3>
+                                Text Only Card
+                            </h3>
+                            <p>
+                                Sometimes a wireframe only needs to communicate text hierarchy. This card focuses purely
+                                on
+                                typography.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="showcase-card">
+                        <span>Placeholder</span>
+                        <div class="card-content">
+                            <h3>
+                                Full Span Feature
+                            </h3>
+                        </div>
+                    </article>
+
+                </div>
+
         </section>
 
         <section class="pricing">

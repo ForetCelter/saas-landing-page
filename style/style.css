@@ -11,3 +11,7 @@
 .logos > img {
     @apply px-7 py-2.5 bg-neutral-200
 }
+
+.showcase-card {
+    @apply bg-neutral-50 border border-neutral-100
+}
